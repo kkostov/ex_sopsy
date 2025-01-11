@@ -25,6 +25,12 @@ jobs:
           otp-version: ${{matrix.otp}}
           elixir-version: ${{matrix.elixir}}
           version-type: strict
+
+      - name: Install Mozilla SOPS
+        uses: mdgreenwald/mozilla-sops-action@v1.6.0
+        with:
+          id: install
+
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
         with:
@@ -34,8 +40,10 @@ jobs:
       - run: gpg -K
 
       - run: mix deps.get --only test
+        name: Test
 
       - run: mix format --check-formatted
+        name: Check formatting
         if: ${{ matrix.lint }}
 
       - run: mix deps.get && mix deps.unlock --check-unused
