@@ -1,0 +1,31 @@
+{
+	"hello": "ENC[AES256_GCM,data:0Y+yObS/H6gDg/1bsxsX2H89+DsQPXLNtxbNYrYUxKcNRcNVQEmL+F92,iv:ov/Do/J1CfgjQxyhYg/S3pWEAVzwfbW6sbc4XU249SA=,tag:PurisCOF3JRDKu7o5xxO6A==,type:str]",
+	"example_key": "ENC[AES256_GCM,data:gn8CxrF7USkv78jsWQ==,iv:VnoopXp7e/kKDuvFAW12T3tApHZ3O9lnoZgT8yf0KS0=,tag:JL2Tabmytec0DIW18JNWRg==,type:str]",
+	"example_array": [
+		"ENC[AES256_GCM,data:ypT71B6lmQT9IWENrR0=,iv:xLC9bceQSzrfi31sdHUw1xehBqRTa8AVoAXP0A8YW6k=,tag:lZ0Dvx6cIY32ZzYZzNgApg==,type:str]",
+		"ENC[AES256_GCM,data:oOwbRehtShRD28flAVQ=,iv:l5uVi3Z5jUOVFzh2ECh8z89sc56Z5ZmmhPlIZOk2Ys8=,tag:Zg9+rAPQi/AMs00VLFhmIg==,type:str]"
+	],
+	"example_number": "ENC[AES256_GCM,data:O9F7kTHWAIZyjg==,iv:4ub1P4ZLZ0YbSsZpPJzlskUjSABsU/OvFZ0nhGGiv+g=,tag:IcBcnuKO8gXxMaD1aTjtYQ==,type:float]",
+	"example_booleans": [
+		"ENC[AES256_GCM,data:axYI/g==,iv:KdPg1+mkkFtvN4kapyCjgsCzgE6dOORNWnAZ3Yd+3hs=,tag:dHyj0YQH9lI9g3Q929ok5g==,type:bool]",
+		"ENC[AES256_GCM,data:BqPUcOE=,iv:RlEuR1YtiFWyixY/ByuPl6rY9mP5qNBXN0DObDpROcM=,tag:bwCPYA+4BpdV+f0Idr3rdg==,type:bool]"
+	],
+	"sops": {
+		"kms": null,
+		"gcp_kms": null,
+		"azure_kv": null,
+		"hc_vault": null,
+		"age": null,
+		"lastmodified": "2025-01-11T12:23:41Z",
+		"mac": "ENC[AES256_GCM,data:g2rkkycTEen7auUfQXzugyuQCIqhVE8WlYhlsjVSlbmAFQaSRog6q6ovZc3LtvmiWh2xAoCslFiKAMP/Fm6h287Vd5JnIV/wYcG8PaVt+0IiGS6n/+RQT3h1KyxzZ6pgbkXazW6fclfklpLnwOFkdi+cXAS9vuF7Sk2X0QlCaQg=,iv:kELlWnTvjzESu0F19xDhexv1HHl9K44xO3yJAaQMkwk=,tag:poyGqmCIfLz2rj4ll16+rA==,type:str]",
+		"pgp": [
+			{
+				"created_at": "2025-01-11T12:23:41Z",
+				"enc": "-----BEGIN PGP MESSAGE-----\n\nhQEMA4qRitmVgMc6AQgAiSErosiCjazfKtrjUnwyJjdHoKyMe4EfCD/ewZ9e/Nvb\nJiifeGOJSbf3FJI2r7ihz92bufTTurvi0lCX80NPCKWGqIxhoXClTp7nBN/bI+UV\nWVxh7dfq8462TDyBpN+Sb7MuNttQXEJiN0fBu7nIrrFbU4LIepSleBK8zFeaItVs\nxqf+DEE7QjDnAItrhKk6jD3B9JLvDGK1QJ7IzJEt7Z6GM3bE+Lt6b6B73CLC1UOA\nbsUpJ9/jMHxUh8Nl8+WFkwU6w0492MmrXGLNb2z2I6zVusXKmjEyerykZVSRjP+3\nI2dnDXx9+qDuQ9ggbg968oGnJYxy4OI4Nb+o1Fd4ZdRoAQkCEOKcu/rKWCS1p3Ou\nd02i8POpIE0na4IR/s47XtcsnZ+3hoYI2pHRZkiNeHWpoxR0Mc+C8jXXuiMbQDxA\nmnR47jdYINOGZrtRd8q9N8UealqxVk5P9xQ1EjtIg0OoJhILxIMfAnA=\n=Qag1\n-----END PGP MESSAGE-----",
+				"fp": "8951791B8CE9D47DEB4AB9228A918AD99580C73A"
+			}
+		],
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.9.3"
+	}
+}
