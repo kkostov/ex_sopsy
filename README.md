@@ -32,9 +32,9 @@ if config_env() == :prod do
       raise "Failed to load secrets: #{inspect(reason)}"
   end
 end
-
 ```
 
+The library is usable from any module in the application.
 
 ## Installation
 
