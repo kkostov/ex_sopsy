@@ -44,7 +44,7 @@ by adding `ex_sopsy` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_sopsy, "~> 0.1.0"}
+    {:ex_sopsy, "~> 1.0.1"}
   ]
 end
 ```
