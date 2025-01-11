@@ -38,8 +38,7 @@ The library is usable from any module in the application.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_sopsy` to your list of dependencies in `mix.exs`:
+Add `ex_sopsy` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
