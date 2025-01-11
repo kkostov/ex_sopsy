@@ -1,8 +1,8 @@
 # ExSopsy
 
-Sopsy is a pragramtic wrapper around Mozila SOPS allowing decryption of secrets at runtime.
+Sopsy is a pragmatic wrapper around Mozilla SOPS allowing decryption of secrets at runtime.
 
-The goal of the library is to offer a simple solution for bringing encrypted secrets into your Elixir application.
+The goal of the library is to offer a simple solution for bringing encrypted secrets into your Elixir application, especially suited for self-hosting (VPS) and easy-to-manage environments (e.g. doesn't require a Vault or a managed service)
 
 
 ## Requirements
