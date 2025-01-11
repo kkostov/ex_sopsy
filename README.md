@@ -1,4 +1,4 @@
-# ExSopsy
+# ExSopsy ![Hex.pm Version](https://img.shields.io/hexpm/v/ex_sopsy) [![Hex Docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/ex_sopsy/) [![CI](https://github.com/kkostov/ex_sopsy/actions/workflows/ci.yml/badge.svg)](https://github.com/kkostov/ex_sopsy/actions/workflows/ci.yml)
 
 Sopsy is a pragmatic wrapper around Mozilla SOPS allowing decryption of secrets at runtime.
 
